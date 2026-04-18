@@ -1,0 +1,147 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:borde-box;
+}
+.mainbox{
+    height:100vh;
+    width:100%;
+    background-color:rgb(236, 9, 47);
+    
+
+}
+.h1box{
+    font-size:100px;
+    font-weight:bold;
+    color:blue;
+}
+.navbox{
+    display:flex;
+    justify-content:space-between;
+}
+.unorderedlistbox{
+    display:flex;
+    font-size:30px;
+    margin-top:50px;
+    margin-right:100px;
+
+    
+}
+.anchor1{
+    text-decoration:none;
+    color:white;
+}
+li{
+    margin-left:50px;
+    list-style:none;
+}
+.anchor1:hover{
+    color:black;
+
+}
+.h2box{
+    font-size:20px;
+    
+}
+.formbox{
+    height:400px;
+    width:300px;
+    background-color:black;
+    color:white;
+    position:absolute;
+    right:300px;
+    bottom:70px;
+    padding:30px;
+    cursor:pointer;
+    display:flex;
+    flex-direction:column;
+    
+
+}
+.h2box{
+    text-align:center;
+    font-weight:400;
+    font-size:50px;
+}
+.inputboxemail{
+    height:50px;
+    width:300px;
+    color:white;
+    background-color:transparent;
+    border:none;
+    border-bottom:3px solid rgb(194, 12, 42);
+    margin-top:20px;
+
+}
+::placeholder{
+    font-size:20px;
+    font-weight:400;
+    color:white;
+}
+.inputboxpassword{
+    height:50px;
+    width:300px;
+    background:transparent;
+    border:none;
+    border-bottom:3px solid rgb(221, 11, 46);
+    margin-top:20px;
+    color:white;
+}
+.para1{
+    margin-top:20px;
+    color:rgb(153, 9, 33);
+    font-size:20px;
+}
+.button1{
+    height:50px;
+    width:100px;
+    background-color:rgb(211, 8, 42);
+    color:white;
+    font-size:20px;
+    border:none;
+    margin-top:20px;
+    margin-left:100px;
+    border-radius:25px;
+    
+    
+    
+}
+.anchor2{
+    text-decoration:none;
+    color:black;
+    font-size:20px;
+    font-weight:600;
+
+}
+.anchor2:hover{
+    color:white;
+}
+.para2{
+    color:yellow;
+    font-size:20px;
+    font-weight:400;
+    margin-top:20px;
+
+}
+.signupbutton{
+    height:50px;
+    width:100px;
+    background-color:yellow;
+    color:black;
+    font-size:20px;
+    margin-top:20px;
+    border:2px solid black;
+    border-radius:25px;
+    font-weight:400;
+    margin-left:100px;
+
+}
+.anchor3{
+    text-decoration:none;
+    font-size:20px;
+    color:black;
+    font-weight:700;
+}
+.anchor3:hover{
+    color:white;
+}
